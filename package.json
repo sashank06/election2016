@@ -1,0 +1,22 @@
+{
+  "name": "insights-search",
+  "version": "0.0.1",
+  "description": "A search interface for IBM Insights for Twitter",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install --allow-root"
+  },
+  "dependencies": {
+    "bower": "~1.4.1",
+    "cfenv": "1.0.x",
+    "express": "4.12.x",
+    "node-bluemix-helpers": "git+http://github.com/l2fprod/node-bluemix-helpers.git",
+    "request": "^2.60.0",
+    "private": true
+  },
+  "repository": {},
+  "engines": {
+    "node": "0.12.x"
+  },
+  "license": "Apache-2.0"
+}

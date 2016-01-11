@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git+http://github.com/l2fprod/node-bluemix-helpers.git' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+http://github.com/l2fprod/node-bluemix-helpers.git
+8 silly fetchOtherPackageData git+http://github.com/l2fprod/node-bluemix-helpers.git
+9 silly cache add args [ 'git+http://github.com/l2fprod/node-bluemix-helpers.git',
+9 silly cache add   null ]
+10 verbose cache add spec git+http://github.com/l2fprod/node-bluemix-helpers.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+http://github.com/l2fprod/node-bluemix-helpers.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+http://github.com/l2fprod/node-bluemix-helpers.git',
+11 silly cache add   spec: 'http://github.com/l2fprod/node-bluemix-helpers.git',
+11 silly cache add   type: 'git' }
+12 verbose addRemoteGit caching git+http://github.com/l2fprod/node-bluemix-helpers.git
+13 silly tryClone cloning git+http://github.com/l2fprod/node-bluemix-helpers.git via git+http://github.com/l2fprod/node-bluemix-helpers.git
+14 verbose tryClone git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656 not in flight; caching
+15 info git [ 'config', '--get', 'remote.origin.url' ]
+16 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+16 warn addRemoteGit
+16 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:203:12)
+16 warn addRemoteGit     at emitTwo (events.js:87:13)
+16 warn addRemoteGit     at ChildProcess.emit (events.js:172:7)
+16 warn addRemoteGit     at maybeClose (internal/child_process.js:818:16)
+16 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:319:11)
+16 warn addRemoteGit     at emitOne (events.js:77:13)
+16 warn addRemoteGit     at Socket.emit (events.js:169:7)
+16 warn addRemoteGit     at Pipe._onclose (net.js:469:12)
+16 warn addRemoteGit  git+http://github.com/l2fprod/node-bluemix-helpers.git resetting remote C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656 because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+16 warn addRemoteGit ]
+16 warn addRemoteGit   killed: false,
+16 warn addRemoteGit   code: 1,
+16 warn addRemoteGit   signal: null,
+16 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+17 info resetRemote resetting C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656 for git+http://github.com/l2fprod/node-bluemix-helpers.git
+18 silly gentlyRm C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656 is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+20 silly vacuum-fs purging C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+21 silly vacuum-fs quitting because other entries in C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes
+22 info git [ 'clone',
+22 info git   '--template=C:\\Users\\Raja\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+22 info git   '--mirror',
+22 info git   'http://github.com/l2fprod/node-bluemix-helpers.git',
+22 info git   'C:\\Users\\Raja\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656' ]
+23 error git clone --template=C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656: Cloning into bare repository 'C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656'...
+24 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+24 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656'...
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:203:12)
+24 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+24 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+24 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:818:16)
+24 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+24 silly fetchPackageMetaData  error for git+http://github.com/l2fprod/node-bluemix-helpers.git { [Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+24 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656'...
+24 silly fetchPackageMetaData ]
+24 silly fetchPackageMetaData   killed: false,
+24 silly fetchPackageMetaData   code: 128,
+24 silly fetchPackageMetaData   signal: null,
+24 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\Raja\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\\Users\\Raja\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+30 verbose stack Cloning into bare repository 'C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656'...
+30 verbose stack
+30 verbose stack     at ChildProcess.exithandler (child_process.js:203:12)
+30 verbose stack     at emitTwo (events.js:87:13)
+30 verbose stack     at ChildProcess.emit (events.js:172:7)
+30 verbose stack     at maybeClose (internal/child_process.js:818:16)
+30 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+31 verbose cwd C:\Users\Raja\workspace\Bluemix\nodejshelloworld
+32 error Windows_NT 10.0.10240
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "git+http://github.com/l2fprod/node-bluemix-helpers.git"
+34 error node v5.0.0
+35 error npm  v3.3.6
+36 error code 128
+37 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror http://github.com/l2fprod/node-bluemix-helpers.git C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656
+37 error Cloning into bare repository 'C:\Users\Raja\AppData\Roaming\npm-cache\_git-remotes\git-http-github-com-l2fprod-node-bluemix-helpers-git-6e01de96ab3d979a7add98d5bb9a6656'...
+38 error If you need help, you may report this error at:
+38 error     <https://github.com/npm/npm/issues>
+39 verbose exit [ 1, true ]
